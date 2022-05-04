@@ -1,0 +1,9 @@
+create database cinema;
+create table movie( num int primary key, name varchar(20), mlactor varchar(20), flactor varchar(20), release year, director varchar(20));
+insert into movie values (1, 'rome', 'roy', 'beena', '2017', 'ajay');
+insert into movie values (2, 'lalaland', 'robert', 'rose', '2016', 'jay');
+insert into movie values (3, 'cars', 'troy', 'neena', '2006', 'aja');
+insert into movie values (4, 'play', 'meg', 'ana', '2015', 'ara');
+insert into movie values (5, 'some', 'pnoy', 'peena', '2007', 'jaya');
+select * from movie;
+select * from movie where mlactor=roy;
